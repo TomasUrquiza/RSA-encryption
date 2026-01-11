@@ -58,11 +58,12 @@ class RSACipher:
 
 if __name__ == "__main__":
     rsa = RSACipher()
-    message = "Math is elegant"
+    message = "Math is Elegant"
     
     encrypted = rsa.encrypt(message)
     decrypted = rsa.decrypt(encrypted)
     
     print(f"Original: {message}")
     print(f"Encrypted: {encrypted}")
+
     print(f"Decrypted: {decrypted}")
